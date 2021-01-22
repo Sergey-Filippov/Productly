@@ -10,8 +10,11 @@
 
 body {
     box-sizing: border-box;
-    font-family: 'Poppins' sans-serif;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
 }
 
 .container {
@@ -20,12 +23,17 @@ body {
     padding: 0 auto;
 }
 
+.title {
+    color: #2F281E;
+}
+
 .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 78px;
 }
+
 .menu {
     margin-left: auto;
 }
@@ -41,18 +49,20 @@ body {
 
 .menu__list-link {
     color: #2F281E;
+    font-weight: 400;
     font-size: 14px;
     line-height: 28px;
     text-decoration: none;
 }
+
 .user-nav {
     margin-right: 13px;
     margin-left: 53px;
 }
 
-.user-nav__link{
-   padding: 11px 23px;
-    color:#173A56;
+.user-nav__link {
+    padding: 11px 23px;
+    color: #173A56;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -61,10 +71,61 @@ body {
     border-radius: 4px;
     margin-top: 16px;
 }
+
 .user-nav__link+.user-nav__link {
     margin-left: 14px;
     color: #fff;
     background: #FF9900;
     border-radius: 4px;
     border-color: transparent;
+}
+
+.top {
+    padding: 133px 0 80px;
+}
+
+.top__title {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    margin-bottom: 30px;
+    max-width: 518px;
+}
+
+.top__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 458px;
+    margin-bottom: 45px;
+}
+
+.top__btn {
+    display: inline-block;
+    font-weight: 700;
+    color: #ffffff;
+    background: #FF9900;
+    border-radius: 4px;
+    padding: 15px 41px;
+    border: none;
+    margin-right: 30px;
+}
+
+.top__link::before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    width: 0;
+    height: 0;
+    border: solid;
+    border-width: 9px 9px 9px 15px;
+    border-color: transparent transparent transparent #FF9900;
+    border-radius: 1px;
+}
+
+.top__link {
+    color: #FF9900;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
 }
