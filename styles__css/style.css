@@ -80,8 +80,12 @@ body {
     border-color: transparent;
 }
 
+
 .top {
     padding: 133px 0 80px;
+    background-image: url(../imgages/Header_people.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 .top__title {
@@ -102,6 +106,7 @@ body {
 
 .top__btn {
     display: inline-block;
+    font-family: 'Poppins';
     font-weight: 700;
     color: #ffffff;
     background: #FF9900;
@@ -109,8 +114,10 @@ body {
     padding: 15px 41px;
     border: none;
     margin-right: 30px;
+    cursor: pointer;
 }
 
+/*    тот же треугольник но наррисованный
 .top__link::before {
     content: " ";
     display: inline-block;
@@ -121,11 +128,24 @@ body {
     border-width: 9px 9px 9px 15px;
     border-color: transparent transparent transparent #FF9900;
     border-radius: 1px;
-}
+}*/
 
 .top__link {
+    padding-left: 25px;
     color: #FF9900;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    position: relative;
+}
+
+.top__link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 17px;
+    height: 19px;
+    background-image: url(../imgages/Triangle\ .svg);
+
 }
