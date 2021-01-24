@@ -83,7 +83,7 @@ body {
 
 .top {
     padding: 133px 0 80px;
-    background-image: url(../imgages/Header_people.png);
+    background-image: url(../images/Header_people.png);
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -146,13 +146,13 @@ body {
     top: 1px;
     width: 17px;
     height: 19px;
-    background-image: url(../imgages/Triangle\ .svg);
+    background-image: url(../images/Triangle\ .svg);
 
 }
 
 .tools {
     padding: 110px 0 90px;
-    background-image: url(../imgages/Bg-tools.svg);
+    background-image: url(../images/Bg-tools.svg);
     background-repeat: no-repeat;
     background-position: bottom;
 }
